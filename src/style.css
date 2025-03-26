@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .task-form input,
+  .task-form select,
+  .task-form button {
+    margin: 5px;
+    padding: 8px;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .task-item.high {
+    background-color: #ffcccc;
+  }
+  
+  .task-item.medium {
+    background-color: #fff0b3;
+  }
+  
+  .task-item.low {
+    background-color: #ccffcc;
+  }
+  
+  .weather {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .auth button {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
